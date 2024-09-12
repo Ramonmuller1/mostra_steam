@@ -1,0 +1,1012 @@
+@media only screen and (min-width: 0) and (max-width: 650px) {
+    @import url('https://fonts.googleapis.com/css2?family=Nerko+One&family=Protest+Guerrilla&family=SUSE:wght@100..800&display=swap');
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        text-decoration: none;
+        list-style: none;
+    }
+
+    body {
+        font-family: "SUSE", sans-serif;
+        background-color: #d6d0d0;
+    }
+
+    header {
+        background: linear-gradient(135deg, #2c3e50, #0d151d);
+        color: #ffffff;
+        display: flex;
+        flex-direction: column-reverse;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .direitaHeader{
+        display: flex;
+        align-items: center;
+        justify-content: right;
+    }
+
+    .imgProerd{
+        width: 20vw;
+        height: 20vh;
+        padding-top: 10px;
+        cursor: pointer;
+    }
+
+    .section2 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: 22vh;
+        margin-top: 80px;
+    }
+
+    .section2 h1{
+        text-align: center;
+        font-size: 50px;
+        padding-bottom: 10px;
+    }
+
+    .section3 {
+        background-color: #d6d0d0; 
+        padding: 20px;
+        margin: 20px 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+    }
+
+    .buttons {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        gap: 100px;
+    }
+
+    .cocainaButton {
+        background-image: url(images/cocaina.jpg);
+        border: 1px solid #ddd; 
+        background-size: cover;
+        background-repeat: no-repeat;
+        border-radius: 8px;
+        padding: 20px;
+        flex: 1;
+        width: 77vw; 
+    }
+
+    .maconhaButton{
+        background-image: url(images/transferir.jpg);
+        border: 1px solid #ddd; 
+        background-size: cover;
+        background-position-x: -60px;
+        background-repeat: no-repeat;
+        border-radius: 8px;
+        padding: 20px;
+        flex: 1;
+        width: 300px;
+    }
+
+    .vapeButton{
+        background-image: url(images/vape.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        border: 1px solid #ddd; 
+        border-radius: 8px;
+        padding: 20px;
+        flex: 1;
+        width: 300px; 
+    }
+
+    .heroinaButton {
+        background-image: url(images/transferir2.jpg);
+        background-size: cover;
+        background-position-x: -50px;
+        background-repeat: no-repeat;
+        border: 1px solid #ddd; 
+        border-radius: 8px;
+        padding: 20px;
+        flex: 1;
+        width: 300px; 
+    }
+
+    .cocainaButton h2, .vapeButton h2, .maconhaButton h2 , .heroinaButton h2{
+        font-size: 1.5em;
+        margin-bottom: 10px;
+        color: #ffffff;
+    }
+
+    .cocainaButton p, .vapeButton p, .maconhaButton p, .heroinaButton p {
+        font-size: 1em;
+        line-height: 1.6;
+        color: #ffffff;
+    }
+
+    .cocainaButtonSM, .vapeButtonSM, .maconhaButtonSM, .heroinaButtonSM {
+        background-color: #007bff;
+        color: #ffffff;
+        border: none;
+        padding: 10px 20px;
+        border-radius: 5px;
+        cursor: pointer;
+        font-size: 1em;
+        margin-top: 10px;
+    }
+
+    .cocainaButtonSM:hover, .vapeButtonSM:hover, .maconhaButtonSM:hover, .heroinaButtonSM:hover {
+        background-color: #0056b3;
+    }
+
+    #contador{
+        padding-top: 10px;
+        padding-bottom: 30px;
+        font-size: 50px;
+    }
+
+    .h1Container{
+        font-size: 20px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    .header-container {
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        margin: 0 auto;
+        padding: 0 10px 0 10px;
+    }
+
+    .sub-header{
+        background: linear-gradient(135deg, #2c3e50, #0d151d);
+        height: 10vh;
+        font-size: 10px;
+        color: #ffffff;
+        width: auto;
+        text-align: center;
+    }
+
+    .sub-header h1{
+        display: flex;
+        padding-top: 20px;
+        justify-content: center;
+    }
+
+    .search input {
+        padding: 3px;
+        margin-right: 10px;
+        border-radius: 5px;
+        border: 1px solid #ddd;
+    }
+
+    .search img{
+        margin-left: 20px;
+        margin-top: 10px;
+        width: 15px;
+        height: 15px;
+        cursor: pointer;
+    }
+
+    #logo {
+        display: flex;
+        align-items: center;
+    
+    }
+
+    #logo img {
+        margin-left: 20px;
+        margin-right: 0px;
+        width: 90px;
+        height: 100px;
+    }
+
+    .text p{
+        display: flex;
+        margin-right: 20px;
+        margin-left: 20px;
+    }
+
+    .section{
+        display: flex;
+        width: 100%;
+        flex-direction: column;
+        gap: 50px;
+        padding-top: 30px;
+        padding-bottom: 50px;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #esquerdaTexto{
+        text-align: center;
+        width: 80%;
+        z-index: 2;
+    }
+
+    #direitaTexto{
+        text-align: center;
+        width: 80%;
+    }
+
+    .modal-background {
+        display: none;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.5);
+        justify-content: center;
+        align-items: center;
+        z-index: 1000;
+    }
+    .modal-content-cocaina {
+        background-color: white;
+        padding: 20px;
+        border-radius: 8px;
+        width: 400px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        text-align: left;
+    }
+
+    .modal-content-cocaina h2{
+        text-align: center;
+    }
+
+    .modal-content-cocaina span{
+        font-weight: bold;
+    }
+
+    .modal-content-vape {
+        background-color: white;
+        padding: 20px;
+        border-radius: 8px;
+        width: 400px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        text-align: left;
+    }
+
+    .modal-content-vape h2{
+        text-align: center;
+    }
+
+    .modal-content-vape span{
+        font-weight: bold;
+    }
+
+    
+    .modal-content-maconha {
+        background-color: white;
+        padding: 20px;
+        border-radius: 8px;
+        width: 400px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        text-align: left;
+    }
+
+    .modal-content-maconha h2{
+        text-align: center;
+    }
+
+    .modal-content-maconha span{
+        font-weight: bold;
+    }
+
+    .modal-content-heroina {
+        background-color: white;
+        padding: 20px;
+        border-radius: 8px;
+        width: 300px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        text-align: left;
+    }
+
+    .modal-content-heroina h2{
+        text-align: center;
+    }
+
+    .modal-content-heroina span{
+        font-weight  : bold;
+        font-size: 15px;
+    }
+
+    .modal-content-heroina p{
+        font-size: 13px;
+    }
+
+    .close {
+        font-size: 24px;
+        cursor: pointer;
+    }
+}
+
+@media only screen and (min-width: 651px) and (max-width: 1366px){
+    @import url('https://fonts.googleapis.com/css2?family=Nerko+One&family=Protest+Guerrilla&family=SUSE:wght@100..800&display=swap');
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        text-decoration: none;
+        list-style: none;
+    }
+
+    ::-webkit-scrollbar {
+        width: 8px;
+        height: 8vh;
+    }
+    
+    ::-webkit-scrollbar-thumb {
+        background-color: #ffffff;
+        border-radius: 4px;
+    }
+    
+    ::-webkit-scrollbar-track {
+        background-color: transparent;
+    }
+
+    .h1Container {
+        margin: 0;
+        color: white;
+    }
+
+
+    body {
+        font-family: "SUSE", sans-serif;
+        background-color: #d6d0d0;
+    }
+
+    header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px 20px;
+        background: linear-gradient(135deg, #2c3e50, #0d151d)
+    }
+
+    .h1EZContainer {
+        flex: 1;
+        text-align: center;
+        padding-left: 280px;
+    }
+
+
+    .direitaHeader{
+        display: flex;
+        align-items: center;
+    }
+
+    #cart-link img {
+        width: 10vh;
+        height: auto;
+    }
+
+    .section2 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: 22vh;
+        margin-top: 80px;
+    }
+
+    .imgProerd{
+        cursor: pointer;
+    }
+
+    .section2 h1{
+        text-align: center;
+        font-size: 50px;
+        padding-bottom: 10px;
+    }
+
+    .section3 {
+        display: flex;
+        flex-direction: row;
+        padding-top: 25px;
+    }
+
+    .section3 {
+        background-color: #d6d0d0; 
+        padding: 20px;
+        margin: 20px 0;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+    }
+
+    .buttons {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 100px;
+    }
+
+    .cocainaButton {
+        background-image: url(images/cocaina.jpg);
+        border: 1px solid #ddd; 
+        background-size: cover;
+        background-repeat: no-repeat;
+        border-radius: 8px;
+        padding: 20px;
+        flex: 1;
+        width: 20vw; 
+    }
+
+    .maconhaButton{
+        background-image: url(images/transferir.jpg);
+        border: 1px solid #ddd; 
+        background-size: cover;
+        background-position-x: -160px;
+        background-repeat: no-repeat;
+        border-radius: 8px;
+        padding: 20px;
+        flex: 1;
+        width: 300px;
+    }
+
+    .vapeButton{
+        background-image: url(images/vape.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        border: 1px solid #ddd; 
+        border-radius: 8px;
+        padding: 20px;
+        flex: 1;
+        width: 300px; 
+        background-position-x: -150px;
+    }
+
+    .heroinaButton {
+        background-image: url(images/transferir2.jpg);
+        background-size: cover;
+        background-position-x: -50px;
+        background-repeat: no-repeat;
+        border: 1px solid #ddd; 
+        border-radius: 8px;
+        padding: 20px;
+        flex: 1;
+        width: 300px; 
+    }
+
+    .cocainaButton h2, .vapeButton h2, .maconhaButton h2 , .heroinaButton h2{
+        font-size: 1.5em;
+        margin-bottom: 10px;
+        color: rgb(109, 98, 98);
+    }
+
+    .cocainaButton p, .vapeButton p, .maconhaButton p, .heroinaButton p {
+        font-size: 1em;
+        line-height: 1.6;
+        color: rgb(109, 98, 98);
+    }
+
+    .cocainaButtonSM, .vapeButtonSM, .maconhaButtonSM, .heroinaButtonSM {
+        background-color: #007bff;
+        color: #ffffff;
+        border: none;
+        padding: 10px 20px;
+        border-radius: 5px;
+        cursor: pointer;
+        font-size: 1em;
+        margin-top: 10px;
+    }
+
+    .cocainaButtonSM:hover, .vapeButtonSM:hover, .maconhaButtonSM:hover, .heroinaButtonSM:hover {
+        background-color: #0056b3;
+    }
+
+    #contador{
+        padding-top: 0;
+        font-size: 50px;
+    }
+
+    .header-container {
+        display: flex;
+        align-items: center;
+    }
+
+
+    .sub-header{
+        background: linear-gradient(135deg, #2c3e50, #0d151d);
+        height: 10vh;
+        font-size: 14px;
+        color: #ffffff;
+        width: auto;
+        text-align: center;
+    }
+    .sub-header h1{
+        padding-top: 10px;
+    }
+
+    .search input {
+        padding: 3px;
+        margin-right: 10px;
+        border-radius: 5px;
+        border: 1px solid #ddd;
+    }
+
+    .search {
+        display: flex;
+        align-items: center;
+        margin-right: 20px;
+    }
+
+    .search img {
+        margin-right: 5px;
+        width: 1vw;
+        height: 2vh;
+        cursor: pointer;
+    }
+
+
+    #logo {
+        display: flex;
+        align-items: center;
+    
+    }
+
+    #logo img {
+        margin-left: 20px;
+        margin-right: 0;
+        width: 90px;
+        height: 100px;
+    }
+
+    .text p{
+        display: flex;
+        margin-right: 20px;
+        margin-left: 20px;
+    }
+
+    .section{
+        display: flex;
+        width: 100%;
+        flex-direction: row;
+        gap: 180px;
+        padding-top: 50px;
+        padding-bottom: 50px;
+        justify-content: center;
+    }
+
+    #esquerdaTexto{
+        text-align: center;
+        width: 40%;
+    }
+
+    #direitaTexto{
+        text-align: center;
+        width: 40%;
+    }
+
+    .modal-background {
+        display: none;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.5);
+        justify-content: center;
+        align-items: center;
+        z-index: 1000;
+    }
+    .modal-content-cocaina {
+        background-color: white;
+        padding: 20px;
+        border-radius: 8px;
+        width: 400px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        text-align: left;
+    }
+
+    .modal-content-cocaina h2{
+        text-align: center;
+    }
+
+    .modal-content-cocaina span{
+        font-weight: bold;
+    }
+
+    .modal-content-vape {
+        background-color: white;
+        padding: 20px;
+        border-radius: 8px;
+        width: 400px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        text-align: left;
+    }
+
+    .modal-content-vape h2{
+        text-align: center;
+    }
+
+    .modal-content-vape span{
+        font-weight: bold;
+    }
+
+    
+    .modal-content-maconha {
+        background-color: white;
+        padding: 20px;
+        border-radius: 8px;
+        width: 400px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        text-align: left;
+    }
+
+    .modal-content-maconha h2{
+        text-align: center;
+    }
+
+    .modal-content-maconha span{
+        font-weight  : bold;
+    }
+
+    .modal-content-heroina {
+        background-color: white;
+        padding: 20px;
+        border-radius: 8px;
+        width: 400px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        text-align: left;
+    }
+
+    .modal-content-heroina h2{
+        text-align: center;
+    }
+
+    .modal-content-heroina span{
+        font-weight  : bold;
+    }
+
+    .modal-content-bobbymarley{
+        background-size: cover;
+        background-repeat: no-repeat
+    }
+    
+    
+    .close {
+        font-size: 24px;
+        cursor: pointer;
+    }
+}
+
+@media only screen and (min-width: 1367px){
+    @import url('https://fonts.googleapis.com/css2?family=Nerko+One&family=Protest+Guerrilla&family=SUSE:wght@100..800&display=swap');
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        text-decoration: none;
+        list-style: none;
+    }
+
+    ::-webkit-scrollbar {
+        width: 8px;
+        height: 8vh;
+    }
+
+    .imgProerd{
+        cursor: pointer;
+    }
+    
+    ::-webkit-scrollbar-thumb {
+        background-color: #ffffff;
+        border-radius: 4px;
+    }
+    
+    ::-webkit-scrollbar-track {
+        background-color: transparent;
+    }
+
+    .h1Container {
+        margin: 0;
+        color: white;
+    }
+
+
+    body {
+        font-family: "SUSE", sans-serif;
+        background-color: #d6d0d0;
+    }
+
+    header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px 20px;
+        background: linear-gradient(135deg, #2c3e50, #0d151d)
+    }
+
+    .h1EZContainer {
+        flex: 1;
+        text-align: center;
+        padding-left: 320px;
+    }
+
+
+    .direitaHeader{
+        display: fle0x;
+        align-items: center;
+    }
+
+    #cart-link img {
+        width: 10vh;
+        height: auto;
+    }
+
+    .section2 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: 22vh;
+        margin-top: 80px;
+    }
+
+    .section2 h1{
+        text-align: center;
+        font-size: 50px;
+        padding-bottom: 10px;
+    }
+
+    .section3 {
+        background-color: #d6d0d0; 
+        padding: 20px;
+        margin: 20px 0;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+    }
+
+    .buttons {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 100px;
+    }
+
+    .cocainaButton {
+        background-image: url(images/cocaina.jpg);
+        border: 1px solid #ddd; 
+        background-size: cover;
+        background-repeat: no-repeat;
+        border-radius: 8px;
+        padding: 20px;
+        flex: 1;
+        width: 20vw; 
+    }
+
+    .maconhaButton{
+        background-image: url(images/transferir.jpg);
+        border: 1px solid #ddd; 
+        background-size: cover;
+        background-position-x: -60px;
+        background-repeat: no-repeat;
+        border-radius: 8px;
+        padding: 20px;
+        flex: 1;
+        width: 300px;
+    }
+
+    .vapeButton{
+        background-image: url(images/vape.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        border: 1px solid #ddd; 
+        border-radius: 8px;
+        padding: 20px;
+        flex: 1;
+        width: 300px; 
+    }
+
+    .heroinaButton {
+        background-image: url(images/transferir2.jpg);
+        background-size: cover;
+        background-position-x: -50px;
+        background-repeat: no-repeat;
+        border: 1px solid #ddd; 
+        border-radius: 8px;
+        padding: 20px;
+        flex: 1;
+        width: 300px; 
+    }
+
+    .cocainaButton h2, .vapeButton h2, .maconhaButton h2 , .heroinaButton h2{
+        font-size: 1.5em;
+        margin-bottom: 10px;
+        color: white;
+    }
+
+    .cocainaButton p, .vapeButton p, .maconhaButton p, .heroinaButton p {
+        font-size: 1em;
+        line-height: 1.6;
+        color: white;
+    }
+
+    .cocainaButtonSM, .vapeButtonSM, .maconhaButtonSM, .heroinaButtonSM {
+        background-color: #007bff;
+        color: #ffffff;
+        border: none;
+        padding: 10px 20px;
+        border-radius: 5px;
+        cursor: pointer;
+        font-size: 1em;
+        margin-top: 10px;
+    }
+
+    .cocainaButtonSM:hover, .vapeButtonSM:hover, .maconhaButtonSM:hover, .heroinaButtonSM:hover {
+        background-color: #0056b3;
+    }
+
+    #contador{
+        padding-top: 0;
+        font-size: 50px;
+    }
+
+    .header-container {
+        display: flex;
+        align-items: center;
+    }
+
+
+    .sub-header{
+        background: linear-gradient(135deg, #2c3e50, #0d151d);
+        height: 10vh;
+        font-size: 14px;
+        color: #ffffff;
+        width: auto;
+        text-align: center;
+    }
+    .sub-header h1{
+        padding-top: 10px;
+    }
+
+    .search input {
+        padding: 3px;
+        margin-right: 10px;
+        border-radius: 5px;
+        border: 1px solid #ddd;
+    }
+
+    .search {
+        display: flex;
+        align-items: center;
+        margin-right: 20px;
+    }
+
+    .search img {
+        margin-right: 5px;
+        width: 1vw;
+        height: 2vh;
+        cursor: pointer;
+    }
+
+
+    #logo {
+        display: flex;
+        align-items: center;
+    
+    }
+
+    #logo img {
+        margin-left: 20px;
+        margin-right: 0;
+        width: 90px;
+        height: 100px;
+    }
+
+    .text p{
+        display: flex;
+        margin-right: 20px;
+        margin-left: 20px;
+    }
+
+    .section{
+        display: flex;
+        width: 100%;
+        flex-direction: row;
+        gap: 180px;
+        padding-top: 50px;
+        padding-bottom: 50px;
+        justify-content: center;
+    }
+
+    #esquerdaTexto{
+        text-align: center;
+        width: 40%;
+    }
+
+    #direitaTexto{
+        text-align: center;
+        width: 40%;
+    }
+
+    .modal-background {
+        display: none;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.5);
+        justify-content: center;
+        align-items: center;
+        z-index: 1000;
+    }
+    .modal-content-cocaina {
+        background-color: white;
+        padding: 20px;
+        border-radius: 8px;
+        width: 400px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        text-align: left;
+    }
+
+    .modal-content-cocaina h2{
+        text-align: center;
+    }
+
+    .modal-content-cocaina span{
+        font-weight: bold;
+    }
+
+    .modal-content-vape {
+        background-color: white;
+        padding: 20px;
+        border-radius: 8px;
+        width: 400px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        text-align: left;
+    }
+
+    .modal-content-vape h2{
+        text-align: center;
+    }
+
+    .modal-content-vape span{
+        font-weight: bold;
+    }
+
+    
+    .modal-content-maconha {
+        background-color: white;
+        padding: 20px;
+        border-radius: 8px;
+        width: 400px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        text-align: left;
+    }
+
+    .modal-content-maconha h2{
+        text-align: center;
+    }
+
+    .modal-content-maconha span{
+        font-weight  : bold;
+    }
+
+    .modal-content-heroina {
+        background-color: white;
+        padding: 20px;
+        border-radius: 8px;
+        width: 400px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        text-align: left;
+    }
+
+    .modal-content-heroina h2{
+        text-align: center;
+    }
+
+    .modal-content-heroina span{
+        font-weight  : bold;
+    }
+    
+    .close {
+        font-size: 24px;
+        cursor: pointer;
+    }
+}

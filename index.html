@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anti-drogas</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/x-icon" href="images/cannabis.png">
+</head>
+<body>
+    <header>
+        <div class="h1EZContainer">
+            <h1 class="h1Container">Todos juntos contra as drogas</h1>
+        </div>
+        <div class="header-container">
+            <div class="search">
+                <img src="images/search-521.png" alt="search" class="imgSearch">
+                <input type="search" id="search" placeholder="Pesquisa">
+            </div>
+            <a id="cart-link">
+                <img src="images/logo.png" alt="proerd" class="imgProerd">
+            </a>
+        </div>
+    </header>
+    <div class="sub-header">
+        <h1>Vamos juntos para mudar o futuro</h1>
+    </div>    
+
+    <section class="section">
+        <div id="esquerdaTexto">
+            <h1>O Impacto Social e Econômico</h1><br>
+            <p>
+                O uso de drogas não afeta apenas o indivíduo, mas também a sociedade como um todo. Compreender o impacto social e econômico das drogas pode ajudar a tomar decisões informadas:
+
+                <br><b>Custos Econômicos:</b> O tratamento de dependência e os cuidados de saúde associados ao uso de drogas representam um enorme custo para os sistemas de saúde pública. Além disso, a perda de produtividade no trabalho e o aumento da criminalidade contribuem para o impacto econômico.
+
+                <br><b>Impacto na Comunidade:</b> O uso de drogas pode levar a comportamentos que afetam negativamente a comunidade, como aumento da violência e da criminalidade. Isso compromete a segurança e a qualidade de vida de todos.
+
+                <br><b>Desigualdade Social:</b> As consequências do uso de drogas muitas vezes afetam desproporcionalmente as comunidades mais vulneráveis, exacerbando desigualdades sociais e econômicas.
+            </p>
+        </div>
+        <div id="direitaTexto">
+            <h1>Como as Drogas Afetam Sua Saúde Mental e Bem-Estar</h1><br>
+            <p>
+
+                A saúde mental é crucial para uma vida equilibrada e feliz. O uso de drogas pode ter efeitos devastadores no bem-estar mental. <br>
+                
+            <b>Alteração da Percepção e Emoções:</b> Drogas podem distorcer sua percepção da realidade e afetar suas emoções, levando a episódios de euforia seguidos por depressão.
+                
+            <br><b>Problemas de Memória e Concentração: </b>O uso de drogas pode prejudicar sua memória e capacidade de concentração, dificultando a realização de tarefas diárias.
+                
+            <br><b>Aumento do Risco de Transtornos Mentais:</b> Drogas podem agravar ou desencadear transtornos mentais existentes, como esquizofrenia e transtorno bipolar        .
+                
+            <br> <b> Cuide da Sua Saúde Mental:</b> Escolher não usar drogas é importante para manter sua saúde mental em boas condições. Procure atividades que promovam o bem-estar e busque apoio quando .
+            </p>  
+        </div>      
+    </section>
+    <section class="section3">
+        <div class="buttons">
+            <div class="cocainaButton">
+                <h2>
+                    Cocaina
+                </h2>
+                <p>
+                    A cocaína é um estimulante potente que causa euforia e aumento de energia, mas pode levar a graves problemas de saúde e dependência. É ilegal na maioria dos países e seu uso tem impactos sociais e legais significativos.
+                </p>
+                <input type="button" value="SaibaMais" class="cocainaButtonSM">
+            </div>
+            <div class="vapeButton">
+                <h2>
+                    Vape
+                </h2>
+                <p>
+                    A cocaína é um estimulante potente que causa euforia e aumento de energia, mas pode levar a graves problemas de saúde e dependência. É ilegal na maioria dos países e seu uso tem impactos sociais e legais significativos.
+                </p>
+                <input type="button" value="SaibaMais" class="vapeButtonSM">
+            </div>
+            <div class="maconhaButton">
+                <h2>
+                    Maconha
+                </h2>
+                <p>
+                    A maconha é uma droga psicoativa derivada da planta Cannabis. Seu uso provoca efeitos como euforia, relaxamento e alterações sensoriais, mas pode levar a problemas de saúde, especialmente com o uso prolongado. Apesar de ser legalizada em alguns lugares, ainda é ilegal em muitas regiões, e seu uso envolve debates sociais e legais significativos.
+                </p>     
+                <input type="button" value="SaibaMais" class="maconhaButtonSM">           
+            </div>
+            <div class="heroinaButton">
+                <h2>
+                    Heroína
+                </h2>
+                <p>
+                    A heroína é uma droga opióide derivada da morfina, um alcaloide encontrado no ópio. Seu uso provoca efeitos intensos de euforia, mas é altamente viciante e pode causar graves problemas de saúde, incluindo dependência, overdose e problemas respiratórios. A heroína é ilegal na maioria dos países e seu uso é associado a uma série de consequências sociais e legais.
+                </p>     
+                <input type="button" value="SaibaMais" class="heroinaButtonSM">           
+            </div>
+            
+        </div>
+    </section>
+    <section class="section2">
+        <h1>
+            Contador de Mortes Por Drogas
+        </h1>
+        <span id="contador">0</span>
+    </section>
+
+    <div id="modalBackground2" class="modal-background" style="display: none;">
+        <div class="modal-content-jumpscare" style="display: none;">
+            <img src="imagens/319510_screenshots_20220313211046_1.jpg" alt="">
+        </div>
+    </div>
+
+    <div id="modalBackground3" class="modal-background" style="display: none;">
+        <div class="modal-content-bobbymarley" style="display: none;">
+            <img src="imagens/bobbyMarley.jfif" alt="">
+        </div>
+    </div>
+
+    <div id="modalBackground4" class="modal-background" style="display: none;">
+        <div class="modal-content-mm" style="display: none;">
+            <img src="imagens/transferir3.jfif" alt="">
+        </div>
+    </div>
+
+    <div id="modalBackground5" class="modal-background" style="display: none;">
+        <div class="modal-content-cc" style="display: none;">
+            <img src="imagens/transferir4.jfif" alt="">
+        </div>
+    </div>
+
+    <div id="modalBackground6" class="modal-background" style="display: none;">
+        <div class="modal-content-Pendrive" style="display: none;">
+            <img src="imagens/transferir5.jfif" alt="">
+        </div>
+    </div>
+
+    <div id="modalBackground7" class="modal-background" style="display: none;">
+        <div class="modal-content-sukuna" style="display: none;">
+            <img src="imagens/images.jfif" alt="">
+        </div>
+    </div>
+    
+    <div id="modalBackground" class="modal-background" style="display: none;">
+        <div class="modal-content-cocaina" style="display: none;">
+            <span id="closeModal" class="close">&times;</span>
+            <h2>Cocaína</h2>
+            <span>Sobre:</span> A cocaína é um potente estimulante que causa euforia e pode levar a dependência e graves problemas de saúde. É ilegal na maioria dos países e seu uso tem impactos sociais e legais significativos.
+            </p>
+            <br>
+            <p><span>Impacto Social:</span> O uso de cocaína pode aumentar a violência e a criminalidade, prejudicando a segurança e a qualidade de vida.
+            </p>
+            <br>
+            <p>
+              <span>Impacto Econômico:</span> O tratamento da dependência e os cuidados de saúde geram altos custos para o sistema público e causam perda de produtividade.
+            </p>
+            <br>
+            <p>
+              <span>Saúde Mental:</span> A cocaína pode afetar negativamente a saúde mental, causando problemas de memória, concentração e aumentando o risco de transtornos mentais.
+            </p>
+            <br>
+            <p>
+              <span>Efeitos do Uso:</span> A curto prazo, a cocaína pode causar aumento da frequência cardíaca e paranoia. A longo prazo, leva a dependência, danos cerebrais e problemas cardíacos, além de afetar a saúde mental.
+            </p>            
+        </div>
+        <div class="modal-content-vape" style="display: none;">
+            <span id="closeModal1" class="close">&times;</span>
+            <h2>Vape</h2>
+            <span>Sobre:</span> O vape é um dispositivo que aquece líquido para gerar vapor, usado como alternativa ao cigarro. Apesar de ser promovido como menos prejudicial, pode causar dependência e problemas de saúde, especialmente entre jovens.
+            </p>
+            <br>
+            <p><span>Impacto Social:</span> O uso do vape por adolescentes preocupa, pois normaliza o vício em nicotina e pode levar a problemas de saúde pública.
+            </p>
+            <br>
+            <p>
+              <span>Impacto Econômico:</span> A indústria do vape movimenta bilhões, mas o tratamento de doenças relacionadas ao seu uso gera custos para o sistema de saúde.
+            </p>
+            <br>
+            <p>
+              <span>Saúde Mental:</span> A nicotina no vape pode agravar ansiedade, depressão e causar dependência psicológica.
+            </p>
+            <br>
+            <p>
+              <span>Efeitos do Uso:</span> O vape pode causar irritação pulmonar, aumento da frequência cardíaca e dependência de nicotina, além de possíveis problemas respiratórios e cardíacos a longo prazo.
+            </p>                     
+          </div>
+          <div class="modal-content-maconha" style="display: none;">
+            <span id="closeModal2" class="close">&times;</span>
+            <h2>Maconha</h2>
+            <span>Sobre:</span> A maconha vem da planta Cannabis e é usada tanto recreativamente quanto medicinalmente. Embora legal em alguns lugares, seu uso contínuo pode causar dependência e problemas de saúde.
+            </p>
+            <br>
+            <p><span>Impacto Social:</span> O uso recreativo da maconha é discutido em muitas sociedades, podendo afetar a produtividade e a saúde pública. Em lugares legalizados, há debates sobre a redução do tráfico de drogas.
+            </p>
+            <br>
+            <p>
+              <span>Impacto Econômico:</span> A legalização gera receitas por meio de impostos, mas o custo de saúde relacionado ao uso frequente e dependência é uma preocupação.
+            </p>
+            <br>
+            <p>
+              <span>Saúde Mental:</span> A maconha pode aliviar ansiedade e dor, mas também pode causar paranoia e prejudicar a memória, especialmente em usuários jovens.
+            </p>
+            <br>
+            <p>
+              <span>Efeitos do Uso:</span> A curto prazo, causa euforia e aumento da frequência cardíaca. A longo prazo, pode levar a problemas respiratórios e dependência, afetando o cérebro e a saúde mental.
+            </p>                       
+          </div>
+          <div class="modal-content-heroina" style="display: none;">
+            <span id="closeModal3" class="close">&times;</span>
+            <h2>Heroína</h2>
+            <p><span>Sobre:</span> A heroína é uma droga opióide derivada da morfina, que é um alcaloide encontrado no ópio. Seu uso provoca efeitos intensos de euforia, mas é altamente viciante e pode levar a graves problemas de saúde, incluindo dependência e overdose.</p>
+            <br>
+            <p><span>Impacto Social:</span> O uso de heroína é associado a uma série de problemas sociais, incluindo a criminalidade e o aumento dos custos relacionados ao tratamento de dependência. Em muitas comunidades, o uso é uma preocupação significativa para a saúde pública e a segurança.</p>
+            <br>
+            <p><span>Impacto Econômico:</span> O tratamento da dependência de heroína e os custos associados a overdose representam uma carga significativa para os sistemas de saúde pública. Além disso, o uso de heroína está frequentemente relacionado a atividades ilegais que podem afetar a economia local.</p>
+            <br>
+            <p><span>Saúde Mental:</span> A heroína pode causar um alívio temporário da dor e euforia, mas o uso prolongado pode levar a graves problemas de saúde mental, como depressão e ansiedade. O vício em heroína pode também levar a comportamentos autodestrutivos e a uma deterioração geral da saúde mental.</p>
+            <br>
+            <p><span>Efeitos do Uso:</span> A curto prazo, a heroína causa euforia intensa e um estado de bem-estar. A longo prazo, pode causar sérios problemas de saúde, incluindo dependência, danos ao sistema nervoso e a problemas respiratórios graves.</p>                       
+        </div>        
+      </div>
+
+    <script src="main.js"></script>
+</body>
+</html>
